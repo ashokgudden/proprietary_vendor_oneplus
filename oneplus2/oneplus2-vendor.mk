@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/oneplus/oneplus2/proprietary/bin/radish:system/bin/radish \
     vendor/oneplus/oneplus2/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/oneplus/oneplus2/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/oneplus/oneplus2/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oneplus/oneplus2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/oneplus/oneplus2/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -115,11 +116,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oneplus/oneplus2/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
     vendor/oneplus/oneplus2/proprietary/lib/libopcamerahw_interface.so:system/lib/libopcamerahw_interface.so \
+    vendor/oneplus/oneplus2/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/oneplus/oneplus2/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/oneplus/oneplus2/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/oneplus/oneplus2/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
     vendor/oneplus/oneplus2/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so \
     vendor/oneplus/oneplus2/proprietary/lib64/libparam.so:system/lib64/libparam.so \
+    vendor/oneplus/oneplus2/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/oneplus/oneplus2/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/oneplus/oneplus2/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/oneplus/oneplus2/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
