@@ -72,6 +72,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.b02:system/etc/firmware/fingerprints.b02 \
     vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.b03:system/etc/firmware/fingerprints.b03 \
     vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprints.mdt:system/etc/firmware/fingerprints.mdt \
+    vendor/oneplus/oneplus2/proprietary/etc/firmware/mbn_ota/mcfg_sw_ATT-VoLTE.mbn:system/etc/firmware/mbn_ota/mcfg_sw_ATT-VoLTE.mbn \
+    vendor/oneplus/oneplus2/proprietary/etc/firmware/mbn_ota/mcfg_sw_CMCC_CSFB_DSDS_Commercial_Volte.mbn:system/etc/firmware/mbn_ota/mcfg_sw_CMCC_CSFB_DSDS_Commercial_Volte.mbn \
+    vendor/oneplus/oneplus2/proprietary/etc/firmware/mbn_ota/mcfg_sw_CU_OpenMkt-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_CU_OpenMkt-Commercial.mbn \
+    vendor/oneplus/oneplus2/proprietary/etc/firmware/mbn_ota/mcfg_sw_OEM_Overseas-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_OEM_Overseas-Commercial.mbn \
+    vendor/oneplus/oneplus2/proprietary/etc/firmware/mbn_ota/mcfg_sw_Reliance-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_Reliance-Commercial.mbn \
+    vendor/oneplus/oneplus2/proprietary/etc/firmware/mbn_ota/mcfg_sw_TMO-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_TMO-Commercial.mbn \
     vendor/oneplus/oneplus2/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/oneplus/oneplus2/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/oneplus/oneplus2/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -135,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/hw/activity_recognition.msm8994.so:system/vendor/lib/hw/activity_recognition.msm8994.so \
@@ -154,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
@@ -365,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:system/vendor/lib64/hw/activity_recognition.msm8994.so \
@@ -399,7 +402,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
